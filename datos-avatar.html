@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capturar datos avatar</title>
+
+    <link rel="stylesheet" href="css/style-avatar.css">
+
+
+</head>
+<body>
+    
+    <div class="fila">
+
+    <div id="formulario" >
+
+<h2> INFO AVATAR</h2>
+
+
+
+<label for="#"> nombres : </label>
+<input type="text" id="cnombres" placeholder=" angie">
+<br>
+<label for="#">edad : </label>
+<input type="number" id="cedad" placeholder=" 24">
+<br>
+<label for="#">fecha nacimiento : </label>
+<input type="date" id="cfnacimiento">
+<br>
+<label for="#">genero : </label>
+<select name="#" id="cgenero">
+
+<option value=" "> seleccionar...  </option>
+<option value="otro"> otro</option>
+<option value="masculino"> masculino  </option>
+<option value="femenino"> femenino  </option>
+
+
+</select>
+
+<br>
+<label for="#"> email : </label>
+<input type="email" id="cemail" placeholder=" @misena">
+<br>
+<label for="#"> descripcion del avatar : </label>
+<textarea name="#" id="cdescripcion" cols="30" rows="5"></textarea>
+<br>
+
+<label for="#"> color de avatar  : </label>
+<select name="#" id="ccolor">
+
+<option value=" "> seleccionar...  </option>
+<option value="verde"> verde</option>
+<option value="morado"> morado </option>
+<option value="azul"> azul  </option>
+
+
+</select>
+<br>
+
+<button  onclick="capturarDatos()" type="submit" > capturar datos </button>
+
+
+
+
+
+</form>
+
+    </div>
+    <div id="card-avatar" >
+
+<h2> AVATAR </h2>
+
+<img id="foto" src="img/lobo.jpg" alt=" avatar por defecto">
+
+<p> <b> nombre :     </b>  </p>
+<p id="mnombres" >   </p>
+
+<p> <b> edad :     </b>  </p>
+<p id="medad" >   </p>
+
+<p> <b> fecha de nacimiento :     </b>  </p>
+<p id="mfnacimiento" >   </p>
+
+<p> <b> genero :     </b>  </p>
+<p id="mgenero" >   </p>
+
+<p> <b> email :     </b>  </p>
+<p id="memail" >   </p>
+
+<p> <b> descripcion :     </b>  </p>
+<p id="mdescripcion" >   </p>
+
+
+    </div>
+
+
+</div>
+
+
+<a class="menu" href="index.html"> de volverse a figuras</a>
+
+    <script src="js/function.js"></script>
+
+
+</body>
+</html>

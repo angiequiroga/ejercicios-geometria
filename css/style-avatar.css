@@ -1,0 +1,95 @@
+.fila {
+
+    width: 80%;
+    max-width: 1200px;
+    background: rgb(119, 118, 118);
+    border: 2px solid rgb(5, 230, 246);
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+}
+
+.fila #formulario {
+
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    background: rgb(48, 151, 165);
+    color: azure;
+    
+
+}
+
+.fila #card-avatar {
+
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    color: azure;
+    min-height: 1000;
+}
+
+.fila #formulario label{
+
+display: block;
+font-size: 20px;
+color: rgb(7, 7, 7);
+font-weight: 400;
+margin-top: 15px;
+text-align: left;
+padding-left: 100px;
+
+}
+
+.fila #formulario input{
+
+width: 200px;
+padding: 8px 15px;
+font-size: 20px;
+border: 2px solid rgb(9, 226, 28);
+
+
+}
+
+.fila #formulario select{
+
+    width: 350px;
+    padding: 8px 15px;
+    font-size: 20px;
+    border: 2px solid rgb(9, 60, 226);
+
+
+
+}
+
+.fila #formulario textarea{
+
+    width: 350px;
+    padding: 8px 15px;
+    font-size: 20px;
+    border: 2px solid rgb(56, 9, 226);
+
+
+
+}
+
+.fila #formulario button{
+
+    width: 350px;
+    padding: 8px 15px;
+    font-size: 20px;
+    border: 2px solid rgb(13, 24, 14);
+    background: rgba(128, 128, 128, 0.5);
+
+}
+
+.fila #card-avatar img {
+
+width:  100px;
+
+}
+
+

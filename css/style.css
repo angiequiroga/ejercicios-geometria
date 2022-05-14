@@ -1,0 +1,214 @@
+.menu {
+
+padding: 8px 20px;
+background: aquamarine;
+color: rgb(17, 16, 16);
+position: absolute;
+right: 200px;
+bottom: 100px;
+text-decoration: none;
+
+}
+
+.fila {
+
+width: 80%;
+max-width: 1200px;
+height: 600px;
+border: 2px solid rgb(5, 214, 246);
+margin: 0 auto;
+margin-top: 20px;
+position: relative;
+display: flex;
+ justify-content: center;
+align-items: center; 
+
+}
+
+.fila .cont-btn {
+
+    width: 50%;
+    height: 80%;
+    background: rgb(5, 214, 246);
+    text-align: center;
+    padding: 60px 20px;
+    
+
+}
+
+.fila .cont-fig {
+
+    width: 50%;
+    height: 80%;
+    text-align: center  ;
+    background: rgb(43, 47, 48);
+    padding: 60px 20px;
+
+}
+
+.fila .cont-btn h2 {
+
+color: azure;
+font-size: 45px;
+
+}
+
+.fila .cont-btn button {
+
+    border-radius: 12px;
+    background:rgba(128, 128, 128, 0.471);
+padding: 8px 15px;
+font-size: 22px;
+border: 2px solid rgb(240, 246, 239);
+margin: 10px 14px;
+cursor: pointer;
+
+}
+
+.fila .cont-fig h2 {
+color: aqua ;
+font-size: 45px;
+
+
+}
+
+.fila .cont-fig #figura{
+
+    width: 200px;
+    height: 200px;
+    background: aquamarine;
+    margin: 0 auto;
+    transition: 0.8s;
+
+
+}
+
+.fila .cont-fig #figura.circulo {
+
+border-radius: 50%;
+transform: rotate( 240deg);
+background: rgb(255, 30, 0);
+
+}
+
+.fila .cont-fig #figura.cuadrado {
+
+    width: 200px;
+    border-radius: 0%;
+    height: 200px;
+    transform: rotate( 360deg);
+    background: rgb(4, 247, 77);
+    border: #beeb1b solid;
+    
+
+
+}
+
+.fila .cont-fig #figura.arriba {
+
+transform: translateY(-80px);
+
+background: blueviolet;
+
+}
+
+.fila .cont-fig #figura.abajo {
+
+    transform: translateY(80px);
+
+    background: rgb(227, 243, 6);
+    
+    }
+
+    .fila .cont-fig #figura.derecha {
+
+        transform: translateX(80px);
+    
+        background: rgb(28, 7, 224);
+        
+        }
+
+        .fila .cont-fig #figura.izq {
+
+            transform: translateX(-80px);
+        
+            background: rgb(242, 241, 247);
+            
+            }
+
+            .fila .cont-fig #figura.dgab {
+
+                transform: translate(100px , 100px);
+                
+
+            
+                background: rgb(242, 241, 247);
+                
+                }
+
+                .fila .cont-fig #figura.dgai {
+
+                    transform: translate(-100px , -100px);
+                
+                    background: rgb(9, 208, 235);
+                    
+                    }
+
+                    .fila .cont-fig #figura.rombo {
+
+                        width: 150px; 
+                        height: 150px; 
+                        -webkit-transform: rotate(45deg) skew(15deg, 15deg);
+                        -moz-transform: rotate(45deg) skew(15deg, 15deg);
+                        -ms-transform: rotate(45deg) skew(15deg, 15deg);
+                        -o-transform: rotate(45deg) skew(15deg, 15deg);
+                        transform: rotate(45deg) skew(15deg, 15deg);
+                        background: rgb(4, 247, 77);
+                        
+
+
+                    }
+
+                    .fila .cont-fig #figura.tri {
+
+                        width: 0px;
+                        height: 0px;
+                        border-right: 200px solid transparent;
+                        border-top: 200px solid transparent;
+                        border-left: 200px solid transparent;
+                        border-bottom: 200px solid #1bcceb;
+                        background:  rgb(43, 47, 48);
+                        
+                        }
+
+                        .fila .cont-fig #figura.imagen {
+
+                            background: url(../img/lobo.jpg);
+                        
+                            border: #1bcceb solid;
+                            transform: rotate(360deg);
+
+                            }
+
+                            .fila .cont-fig #figura.rech {
+
+                                width: 250px; 
+                                height: 100px; 
+                                border: 3px solid #555;
+                                background: #428bca;
+                                
+                                }
+
+                                .fila .cont-fig #figura.recv {
+
+                                    width: 100px; 
+                                    height: 250px; 
+                                    border: 3px solid rgb(206, 5, 233);
+                                    background: #cde211;
+                                    
+                                    }
+
+
+
+        
+
